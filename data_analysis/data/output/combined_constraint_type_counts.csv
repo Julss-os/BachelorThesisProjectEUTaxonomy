@@ -1,0 +1,8 @@
+Constraint Type,Count
+Data (within),23
+Control-flow (between),6
+Data (between),6
+Resource (between),4
+Resource (within),3
+Temporal (between),2
+Temporal (within),1
