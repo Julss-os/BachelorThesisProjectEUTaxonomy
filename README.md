@@ -12,6 +12,8 @@ The `conformance_pipeline` module processes production data in several stages:
 
 ### Processing Steps
 
+Source input Event log: https://data.4tu.nl/articles/_/12697997/1
+
 1. **Activity Enrichment**  
    Adds missing activities based on a modeled process logic.
 
