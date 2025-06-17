@@ -1,0 +1,10 @@
+,Violation Rate (%)
+PP-004 (No RoHS substances unless compliant),100.0
+PP-005 (No REACH substances unless compliant),100.0
+PP-001 (No POPs use),89.33
+CM-001 (Secondary raw materials),87.11
+PP-008-01 (Lead <= 0.01%),48.89
+CE-003 (Traceability of substances),26.67
+PP-003 (No ODS use),0.0
+PP-006 (No SVHCs above 0.1%),0.0
+CM-002 (GHG emission reductions),0.0
