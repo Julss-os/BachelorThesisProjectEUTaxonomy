@@ -1,0 +1,46 @@
+﻿Constraint ID,Constraint Category,Constraint Name,Regulatory Source,Model Type,Process Perspective,Granularity,Lifecycle Phase,Event Log Availability
+BE-001,DNSH Biodiversity,Environmental Impact Assessment or screening conducted,Appendix D,declarative,data,within,design,no
+BE-002,DNSH Biodiversity,EIA mitigation and compensation measures implemented,Appendix D,imperative,control-flow,between,monitoring,no
+BE-003,DNSH Biodiversity,Screening for biodiversity-sensitive areas,Appendix D,declarative,control-flow,between,monitoring,no
+BE-004,DNSH Biodiversity,Mitigation assessment based on screening,Appendix D,declarative,control-flow,between,monitoring,no
+CA-001,Substantial Contribution to Climate Adaptation & DNSH,Screening of relevant physical climate risks,"Taxonomy Annex II, Sec. 3.4 Appendix A 1.a",declarative,data,within,design,no
+CA-002,Substantial Contribution to Climate Adaptation & DNSH,Assessment of identified risks with CRVA,"Taxonomy Annex II, Sec. 3.4 Appendix A 1.b",declarative,data,between,design,no
+CA-003,Substantial Contribution to Climate Adaptation & DNSH,Each risk has corresponding adaptation solution and projections,"Taxonomy Annex II, Sec. 3.4 Appendix A 1.c",declarative,data,between,design,no
+CA-004,Substantial Contribution to Climate Adaptation & DNSH,Use of state-of-the-art projections proportional to activity scale,"Taxonomy Annex II, Sec. 3.4 Appendix A 2.a, 2.b",declarative,data,within,design,no
+CA-005,Substantial Contribution to Climate Adaptation & DNSH,Adaptation solution does not harm other systems,"Taxonomy Annex II, Sec. 3.4 Appendix A",imperative,resource,between,design,no
+CA-006,Substantial Contribution to Climate Adaptation & DNSH,Prefer nature-based solutions where feasible,"Taxonomy Annex II, Sec. 3.4 Appendix A",declarative,data,within,design,no
+CA-007,Substantial Contribution to Climate Adaptation & DNSH,Solution aligns with national/regional plans,"Taxonomy Annex II, Sec. 3.4 Appendix A",imperative,data,within,design,no
+CA-008,Substantial Contribution to Climate Adaptation & DNSH,Use of best practice sources for projections,"Taxonomy Annex II, Sec. 3.4 Appendix A",declarative,data,within,design,no
+CA-009,Substantial Contribution to Climate Adaptation & DNSH,Implementation plan for adaptation solution,Apendix A,declarative,temporal,between,design,no
+CA-010,Substantial Contribution to Climate Adaptation & DNSH,Integration of adaptation solutions in design for new activities,Apendix A,imperative,temporal,between,design,no
+CA-011,Substantial Contribution to Climate Adaptation & DNSH,Implementation of adaptation solution for existing activities within 5 years,Apendix A,imperative,temporal,within ,monitoring,no
+CA-012,Substantial Contribution to Climate Adaptation,Solution success is monitored with KPIs and triggers remediation if failed,"Taxonomy Annex II, Sec. 3.4",imperative,data,between,monitoring,no
+CA-013,Substantial Contribution to Climate Adaptation,Solution complies with all DNSH criteria of the activity,"Taxonomy Annex II, Sec. 3.4",imperative,data,within,design,no
+CE-001,DNSH Circular Economy,"Product design must consider durability, recyclability, disassembly","Taxonomy Annex I, Sec. 3.4",declarative,resource,within,design,no
+CE-002,DNSH Circular Economy,Use of secondary raw material,"Taxonomy Annex I, Sec. 3.4",declarative,resource,within,execution,no
+CE-004,DNSH Circular Economy,Use Best Available Techniques in recycling,"Taxonomy Annex I, Sec. 3.4",imperative,resource,within,execution,no
+CE-005,DNSH Circular Economy,Facilities meet Directive 2010/75/EU,"Taxonomy Annex I, Sec. 3.4",declarative,data,within,design,no
+CE-040,DNSH Circular Economy,Recycling processes meet Directive 2006/66/EC,"Taxonomy Annex I, Sec. 3.4",imperative,control-flow,between,execution,no
+CE-041,DNSH Circular Economy,Recycling process must be documented,Directive 2006/66/EC,imperative,control-flow,between,monitoring,no
+CE-047,DNSH Circular Economy,CO2 footprint declaration required from May 2024,Directive 2023/1542,declarative,data,within,monitoring,no
+CE-048,DNSH Circular Economy,Due Diligence Policy from May 2025,Directive 2023/1542,imperative,resource,between,design,no
+CM-001,Substantial Contribution to Climate Mitigation,Use of secondary raw materials in battery production,"Taxonomy Annex I, Sec. 3.4",declarative,resource,between,execution,no
+CM-003,Substantial Contribution to Climate Mitigation,Recycle end-of-life batteries,"Taxonomy Annex I, Sec. 3.4",imperative,control-flow,between,execution,no
+PP-007,DNSH Pollution Prevention and Control,Substitution check for SVHCs,Appendix C to EU Taxonomy,declarative,data,within,monitoring,no
+WR-001,DNSH Sustainable use and protection of water and marine resources,EIA includes valid WFD-aligned water assessment,Appendix B,imperative,data,within,design,no
+WR-002,DNSH Sustainable use and protection of water and marine resources,"If no valid EIA exists, environmental water risks must be addressed using a WFD-compliant water plan",Appendix B,declarative,data,between,design,no
+WR-003,DNSH Sustainable use and protection of water and marine resources,Water plan developed in consultation with stakeholders,Appendix B,declarative,resource,between,design,no
+WR-004,DNSH Sustainable use and protection of water and marine resources,Activity must not deteriorate marine waters in good status or prevent achieving good status,Appendix B,declarative,data,between,monitoring,no
+WR-005,DNSH Sustainable use and protection of water and marine resources,Evaluation of marine water impact must comply with Decision (EU) 2017/848 criteria,Appendix B,declarative,data,within,design,no
+CE-003,DNSH Circular Economy,Traceability of substances,"Taxonomy Annex I, Sec. 3.4",declarative,data,within,execution,yes
+CE-046,DNSH Circular Economy,BMS required from May 2024,Directive 2023/1542,declarative,data,within,execution,yes
+CM-002,Substantial Contribution to Climate Mitigation,GHG emission reductions in production process,"Taxonomy Annex I, Sec. 3.4",declarative,data,within,monitoring,yes
+PP-001,DNSH Pollution Prevention and Control,Substance use restriction,Appendix C: POPs Regulation (EU) 2019/1021,declarative,data,within ,execution,yes
+PP-002,DNSH Pollution Prevention and Control,Ban of mercury-added products,"Appendix C: Regulation (EU) 2017/852, Art. 2",declarative,data,within,execution,yes
+PP-003,DNSH Pollution Prevention and Control,Ban of ozone-depleting substances,Appendix C Regulation (EC) No 1005/2009,declarative,data,within,execution,yes
+PP-004,DNSH Pollution Prevention and Control,Ban of RoHS substances,"Appendix C Directive 2011/65/EU, Annex II",declarative,data,within,execution,yes
+PP-005,DNSH Pollution Prevention and Control,Ban of REACH substances,"Appendix C Regulation (EC) 1907/2006, Annex XVII",declarative,data,within,execution,yes
+PP-006,DNSH Pollution Prevention and Control,Ban of SVHCs >0.1%,Appendix C to EU Taxonomy,declarative,data,between,execution,yes
+PP-008,DNSH Pollution Prevention and Control,Hazardous substance restriction in batteries,EU Taxonomy 3.4,declarative,data,within,execution,yes
+PP-008-01,DNSH Pollution Prevention and Control,Lead <= 0.01% ,Appendix C to EU Taxonomy,declarative,data,within,execution,yes
+PP-008-02,DNSH Pollution Prevention and Control,Cadium <= 0.002%,Appendix C to EU Taxonomy,declarative,data,within,execution,yes
